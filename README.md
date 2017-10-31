@@ -1,6 +1,6 @@
 # Discord Nihilism Theme
 
-### Latest version
+### **Latest version**
 
 - **Windows:** v3.00
 - **Web:** v3.00
