@@ -40,7 +40,7 @@ Write the following in your custom css
 
 ### Web
 
-Install the theme from [Usertyles](https://userstyles.org/styles/147291/)
+Install the theme from [Usertyles](https://userstyles.org/styles/147291/) using [Stylus](https://github.com/openstyles/stylus#releases)
 
 ## Credits
 
