@@ -20,10 +20,10 @@
 ## Screenshots
 
 ### Windows
-![](images/screenshot-windows.jpg)
+![Windows](images/windows-screen.jpg)
 
 ### Web
-![](images/screenshot-firefox.jpg)
+![Web](images/web-screen.jpg)
 
 ## How to install
 
