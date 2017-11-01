@@ -1,17 +1,19 @@
 # Discord Nihilism Theme
 
+A darker, compact discord theme.
+
+>Designed for use with Discord's dark theme. If you're using the desktop client, you should also enable BetterDiscord's dark mode.
+
 ### **Latest version**
 
-- **Windows:** v3.00
-- **Web:** v3.00
-
->Designed for use with Discord's dark theme. If you're using the client, you should also enable BetterDiscord's dark mode.
+- **Windows:** v3.01
+- **Web:** v3.01
 
 ## Features
 
 - Compact lists
 - Rounded square avatars and status borders
-- Bigger emotes
+- Bigger emojis
 - Hide blocked messages
 - Hide title bar _(windows)_
 - Hide apps button _(web)_
@@ -20,10 +22,10 @@
 ## Screenshots
 
 ### Windows
-![Windows](images/windows-screen.jpg)
+![Windows](images/windows-screen.png)
 
 ### Web
-![Web](images/web-screen.jpg)
+![Web](images/web-screen.png)
 
 ## How to install
 
@@ -35,7 +37,7 @@ OR
 
 Write the following in your custom css
 ```CSS
-@import url("https://cdn.rawgit.com/ObserverOfTime/Discord-Nihilism-Theme/master/Nihilism-Windows.theme.css")
+@import url("https://cdn.rawgit.com/ObserverOfTime/Discord-Nihilism-Theme/master/Nihilism-Windows.theme.css");
 ```
 
 ### Web
