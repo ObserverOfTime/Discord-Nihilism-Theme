@@ -1,2 +1,7 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+*  text=auto
+
+*.md    text
+*.css   text
+*.html  text
+
+/images/*  binary
