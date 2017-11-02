@@ -1,4 +1,4 @@
-//META{"name":"Nihilism", "description":"Compact lists. Rounded square avatars and status borders. Bigger emotes. ACTUALLY blocked messages. No titlebar. More dark elements.", "author":"Observer of Time", "version":"3.00"}*//
+//META{"name":"Nihilism", "description":"Compact lists. Rounded square avatars and status borders. Bigger emotes. ACTUALLY blocked messages. No titlebar. More dark elements.", "author":"Observer of Time", "version":"3.01.1"}*//
 
 /* ---- Compact Server List ---- */
 .guilds-wrapper {
@@ -335,7 +335,7 @@ div[class*="autocomplete"] {
 div[class*="contentTitle"] {
   color:#DDD !important
 }
-div[class*="content-"] {
+div[class*="content-2"] {
   color:#EEE !important;
   padding-left: 13px;
 }

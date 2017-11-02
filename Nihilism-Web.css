@@ -1,14 +1,14 @@
 @-moz-document domain("discordapp.com") {
-/* ---- Web Discord Nihilism Theme v3.01 by Observer of Time ---- */
+/* ---- Web Discord Nihilism Theme v3.01.1 by Observer of Time ---- */
 
 /* ---- Features ----
-*  Compact lists
-*  Rounded square avatars and status borders
-*  Bigger emojis
-*  Hide blocked messages
-*  Hide apps button
-*  More dark elements
-*/
+ *  Compact lists
+ *  Rounded square avatars and status borders
+ *  Bigger emojis
+ *  Hide blocked messages
+ *  Hide apps button
+ *  More dark elements
+ */
 
 /* ---- Compact Server List ---- */
 .guilds-wrapper {
@@ -301,7 +301,7 @@ div[class*="autocomplete"] {
 div[class*="contentTitle"] {
 	color: #DDD !important
 }
-div[class*="content-"] {
+div[class*="content-2"] {
 	color: #EEE !important;
 	padding-left: 13px;
 }
