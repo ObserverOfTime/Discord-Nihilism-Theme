@@ -1,13 +1,13 @@
 # Discord Nihilism Theme
 
-A darker, compact discord theme.
+**A darker, compact discord theme.**
 
->Designed for use with Discord's dark theme. If you're using the desktop client, you should also enable BetterDiscord's dark mode.
+>Designed for use with Discord's dark theme. If you're using the desktop client, you should also enable BetterDiscord's dark mode for maximum darkness.
 
 ### **Latest version**
 
-- **Windows:** v3.01
-- **Web:** v3.01
+- **Windows:** v3.01.1
+- **Web:** v3.01.1
 
 ## Features
 
@@ -30,19 +30,13 @@ A darker, compact discord theme.
 ## How to install
 
 ### Windows
-
-[Download](http://tiny.cc/nihilism-windows) the theme and place it in your theme folder
-
-OR
-
-Write the following in your custom css
-```CSS
-@import url("https://cdn.rawgit.com/ObserverOfTime/Discord-Nihilism-Theme/master/Nihilism-Windows.theme.css");
-```
+- Install [BetterDiscord](https://betterdiscord.net/home/)
+- [Download](http://tiny.cc/nihilism-windows) the theme and place it in BetterDiscord's theme folder ___OR___ write the following in your custom CSS: `@import url("https://cdn.rawgit.com/ObserverOfTime/Discord-Nihilism-Theme/master/Nihilism-Windows.theme.css");`
 
 ### Web
 
-Install the theme from [Usertyles](https://userstyles.org/styles/147291/) using [Stylus](https://github.com/openstyles/stylus#releases)
+- Install [Stylus](https://github.com/openstyles/stylus#releases) 
+- Install the theme from [Usertyles](https://userstyles.org/styles/147291/) 
 
 ## Credits
 
