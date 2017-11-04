@@ -2,12 +2,13 @@
 
 **A darker, compact discord theme.**
 
->Designed for use with Discord's dark theme. If you're using the desktop client, you should also enable BetterDiscord's dark mode for maximum darkness.
+>Designed for use with Discord's dark theme. If you're using a desktop client, you should also enable BetterDiscord's dark mode for maximum darkness.
 
 ### **Latest version**
 
 - **Windows:** v3.01.1
 - **Web:** v3.01.1
+- **Linux:** v3.01.1
 
 ## Features
 
@@ -27,6 +28,9 @@
 ### Web
 ![Web](images/web-screen.png)
 
+### Linux
+![Linux](images/linux-screen.png)
+
 ## How to install
 
 ### Windows
@@ -37,6 +41,10 @@
 
 - Install [Stylus](https://github.com/openstyles/stylus#releases) 
 - Install the theme from [Usertyles](https://userstyles.org/styles/147291/) 
+
+### Linux
+- Install BetterDiscord by following these [instructions](https://www.youtube.com/watch?v=h1R2NTX-6C8)
+- [Download](http://tiny.cc/nihilism-linux) the theme and place it in BetterDiscord's theme folder ___OR___ write the following in your custom CSS: `@import url("https://cdn.rawgit.com/ObserverOfTime/Discord-Nihilism-Theme/master/Nihilism-Windows.theme.css");`
 
 ## Credits
 
