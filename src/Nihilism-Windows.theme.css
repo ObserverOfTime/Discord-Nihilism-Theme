@@ -508,13 +508,20 @@ path[class*="attachButtonPlus-"] {
 }
 div[id*="bda-q"],
 button[id*="bda-q"],
-button[id*="bda-q"] {
-  background: #333 !important;
+button[id*="bda-q"],
+.preview-container .preview-wrapper,
+div[id*="bda-q"] .scroller::-webkit-scrollbar-thumb {
+  background-color: #333 !important;
   color: #DDD;
   border-left: none !important;
   border-right: none !important;
   box-shadow: none !important;
 }
+.preview-container {
+  position: relative;
+  right: 2px !important;
+}
+
 
 /* TODO
  * Dark buttons
