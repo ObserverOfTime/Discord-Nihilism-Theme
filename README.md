@@ -2,12 +2,12 @@
 
 **A darker, compact discord theme.**
 
->Designed for use with Discord's dark theme. If you're using a desktop client, you should also enable BetterDiscord's dark mode for maximum darkness.
+>Designed for use with Discord's dark theme.
 
 ### **Latest version**
 
-- **Windows:** v3.01.1
-- **Web:** v3.01.1
+- **Windows:** v3.02
+- **Web:** v3.02
 - **Linux:** v3.01.1
 
 ## Features
@@ -18,6 +18,7 @@
 - Hide blocked messages
 - Hide title bar _(windows)_
 - Hide apps button _(web)_
+- Hide unnecessary scrollbars
 - More dark elements
 
 ## Screenshots
@@ -35,7 +36,7 @@
 
 ### Windows
 - Install [BetterDiscord](https://betterdiscord.net/home/)
-- [Download](http://tiny.cc/nihilism-windows) the theme and place it in BetterDiscord's theme folder ___OR___ write the following in your custom CSS: `@import url("https://cdn.rawgit.com/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Windows.theme.css");`
+- [Download](http://tiny.cc/nihilism-windows) the theme and place it in BetterDiscord's theme folder _or_ write the following in your custom CSS: `@import url("https://cdn.rawgit.com/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Windows.theme.css");`
 
 ### Web
 
@@ -44,7 +45,7 @@
 
 ### Linux
 - Install BetterDiscord following these [instructions](https://www.youtube.com/watch?v=h1R2NTX-6C8)
-- [Download](http://tiny.cc/nihilism-linux) the theme and place it in BetterDiscord's theme folder ___OR___ write the following in your custom CSS: `@import url("https://cdn.rawgit.com/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Linux.theme.css");`
+- [Download](http://tiny.cc/nihilism-linux) the theme and place it in BetterDiscord's theme folder _or_ write the following in your custom CSS: `@import url("https://cdn.rawgit.com/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Linux.theme.css");`
 
 ## Credits
 
