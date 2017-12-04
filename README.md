@@ -8,13 +8,13 @@
 
 - **Windows:** v3.02
 - **Web:** v3.02
-- **Linux:** v3.01.1
+- **Linux:** v3.02
 
 ## Features
 
 - Compact lists
 - Rounded square avatars and status borders
-- Bigger emojis
+- Bigger emoji
 - Hide blocked messages
 - Hide title bar _(windows)_
 - Hide apps button _(web)_
@@ -36,7 +36,7 @@
 
 ### Windows
 - Install [BetterDiscord](https://betterdiscord.net/home/)
-- [Download](http://tiny.cc/nihilism-windows) the theme and place it in BetterDiscord's theme folder _or_ write the following in your custom CSS: `@import url("https://cdn.rawgit.com/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Windows.theme.css");`
+- [Download](http://tiny.cc/nihilism-windows) the theme and place it in BetterDiscord's theme folder _or_ write the following in your custom CSS: `@import url("https://raw.githack.com/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Windows.theme.css");`
 
 ### Web
 
@@ -45,7 +45,7 @@
 
 ### Linux
 - Install BetterDiscord following these [instructions](https://www.youtube.com/watch?v=h1R2NTX-6C8)
-- [Download](http://tiny.cc/nihilism-linux) the theme and place it in BetterDiscord's theme folder _or_ write the following in your custom CSS: `@import url("https://cdn.rawgit.com/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Linux.theme.css");`
+- [Download](http://tiny.cc/nihilism-linux) the theme and place it in BetterDiscord's theme folder _or_ write the following in your custom CSS: `@import url("https://raw.githack.com/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Linux.theme.css");`
 
 ## Credits
 
