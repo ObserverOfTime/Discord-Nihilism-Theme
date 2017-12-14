@@ -1,4 +1,4 @@
-//META{"name":"Nihilism", "description":"Compact lists. Rounded square avatars and status borders. Bigger emoji. ACTUALLY blocked messages. No titlebar (windows). No unnecessary scrollbars. More dark elements.", "author":"Observer of Time", "version":"3.02"}*//
+//META{"name":"Nihilism", "description":"Compact lists. Rounded square avatars and status borders. Bigger emoji. ACTUALLY blocked messages. No titlebar (windows). No unnecessary scrollbars. More dark elements.", "author":"Observer of Time", "version":"3.02.1"}*//
 
 /* ---- Compact Server List ---- */
 .guilds-wrapper {
@@ -11,7 +11,6 @@
 }
 .guilds-add {
   opacity: 0.5;
-  border-radius: 27% !important;
   font-size: 22px !important;
 }
 .guilds-wrapper .guild-separator {
@@ -28,7 +27,6 @@
 }
 .guilds-wrapper .guilds .guild .guild-inner {
   background: #151515 !important;
-  border-radius: 27% !important;
   line-height: 35px;
 }
 .guilds-wrapper .guilds .guild .guild-inner a,
@@ -120,7 +118,7 @@ div[class*="winButton-"] {
   right: 7px;
   height: 35px;
   width: 35.5px;
-  border-radius: 25%;
+  border-radius: 20%;
 }
 div[class*="titleBar-"] {
   position: relative;
@@ -206,14 +204,14 @@ div[class*="autocomplete"],
 .upload-modal .inner .channel-text-area-upload div[class*="inner-"],
 .upload-drop-modal .bgScale,
 .search-popout .option.selected,
-.search-popout .option.selected::after {
+.search-popout .option.selected::after,
+#autocomplete-popout header {
   background: #444 !important;
   color: silver !important;
 }
 .popout-menu .popout-menu-item:hover,
 .context-menu .item:hover,
-.quick-message,
-#friends .btn {
+.quick-message {
   background-color: #444 !important;
   color: lightgray !important;
   border: none;
@@ -286,11 +284,6 @@ div[class*="autocomplete"] div[class*="content-"] {
 .popout-menu .popout-menu-item:hover.invite {
   color: aqua;
 }
-.member-roles .member-role {
-  background: none;
-  border-color: darkgray;
-  color: darkgray;
-}
 .search-popout .results-group .header {
   color: #696969 !important;
 }
@@ -314,22 +307,28 @@ div[class*="search-bar"] input {
   opacity: .8;
   text-decoration: underline;
 }
+#autocomplete-popout .row.selected {
+  background: lightslategray !important;
+}
 
 /* ---- Rounded Square Avatars and Status Borders ---- */
 div[class*="avatar"],
 div[class*="image-"],
 div[class*="status"]:not(.status-picker):not(.member-status),
+.guild-inner,
+.guilds-add,
 .guilds-error,
 .guild-placeholder,
 .embed-author-icon {
-  border-radius: 30% !important;
+  border-radius: 25% !important;
 }
 div[class*="status"] {
   top: -2px;
   left: -2px;
 }
 .avatar-small .status,
-div[class*="status"]:not(.status-picker):not(.member-status) {
+div[class*="listAvatar"] div[class*="status"],
+div[class*="autocomplete"] div[class*="status"] {
   width: 100% !important;
   height: 100% !important;
   background: transparent;
@@ -355,6 +354,7 @@ div[class*="statusStreaming"] {
 div[class*="statusInvisible"],
 div[class*="statusOffline"] {
   border: 2px solid #747F8D !important;
+  display: block !important;
 }
 div[class*="statusProfile-"] {
   width: 100% !important;
@@ -484,6 +484,20 @@ div[class*="cardWarning-"] {
   border: none;
 }
 
+#autocomplete-popout header::before {
+  border-top-color: #444 !important;
+}
+.popout section:after,
+.popout section:before {
+  border: none !important;
+}
+
+[class*="addButton"],
+[class*="role-"],
+[class*="roleCircle"] {
+  border-radius: 4px;
+}
+
 .mention {
   border-radius: 5%;
 }
@@ -521,10 +535,10 @@ div[id*="bda-q"] .scroller::-webkit-scrollbar-thumb {
   position: relative;
   right: 2px !important;
 }
-
-
+  
+  
 /* TODO
- * Dark buttons
+ * Dark buttons and more
  */
 
 /* ---- Credits ---- 

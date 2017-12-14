@@ -6,7 +6,7 @@
 
 ### **Latest version**
 
-- **Windows:** v3.02
+- **Windows:** v3.02.1
 - **Web:** v3.02
 - **Linux:** v3.02
 
