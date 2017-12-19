@@ -1,17 +1,16 @@
+
 # Discord Nihilism Theme
 
 **A darker, compact discord theme.**
 
->Designed for use with Discord's dark theme.
+**Designed for use with Discord's dark theme.**
 
-### **Latest version**
 
-- **Windows:** v3.02.1
-- **Web:** v3.02
-- **Linux:** v3.02
+
+## Latest versions
 
 ## Features
-
+    
 - Compact lists
 - Rounded square avatars and status borders
 - Bigger emoji
@@ -40,7 +39,7 @@
 
 ### Web
 
-- Install [Stylus](https://github.com/openstyles/stylus#releases) 
+- Install [Stylus](https://github.com/openstyles/stylus) or [Stylish](https://github.com/stylish-userstyles/stylish)
 - Install the theme from [Usertyles](https://userstyles.org/styles/147291/) 
 
 ### Linux
@@ -55,8 +54,5 @@ Partially inspired by 0mniscient's [Discord Reborn](https://github.com/0mniscien
 
 Windows client [drag fix](https://github.com/Inve1951/BetterDiscordStuff/blob/master/themes/dragfix.theme.css) by Inve1951
 
-## License
-
-Standard [MIT License](./LICENSE)
 
 
