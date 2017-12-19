@@ -6,8 +6,14 @@
 **Designed for use with Discord's dark theme.**
 
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+[![Twitter](https://img.shields.io/badge/Twitter-@chronobserver-696969.svg?logo=twitter)](https://twitter.com/chronobserver)
 
 ## Latest versions
+
+[![Windows](https://img.shields.io/badge/Windows-3.02.1-orange.svg)](src/Nihilism-Windows.theme.css)
+[![Web](https://img.shields.io/badge/Web-3.02.1-yellow.svg)](src/Nihilism-Web.theme.css)
+[![Linux](https://img.shields.io/badge/Linux-3.02-yellowgreen.svg)](src/Nihilism-Linux.theme.css)
 
 ## Features
     
@@ -53,6 +59,4 @@ Partially inspired by 0mniscient's [Discord Reborn](https://github.com/0mniscien
 [Smaller server avatars](https://github.com/Zerthox/Mini-Discord-Themes/blob/master/themes/SmallerGuilds.theme.css) and [status borders](https://github.com/Zerthox/Mini-Discord-Themes/blob/master/themes/StatusCircles.theme.css) by Zerthox
 
 Windows client [drag fix](https://github.com/Inve1951/BetterDiscordStuff/blob/master/themes/dragfix.theme.css) by Inve1951
-
-
 
