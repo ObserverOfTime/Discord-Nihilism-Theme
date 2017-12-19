@@ -5,15 +5,14 @@
 
 **Designed for use with Discord's dark theme.**
 
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
-[![Twitter](https://img.shields.io/badge/Twitter-@chronobserver-696969.svg?logo=twitter)](https://twitter.com/chronobserver)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](./LICENSE)
+[![Twitter](https://img.shields.io/badge/Twitter-@chronobserver-696969.svg?style=flat-square&logo=twitter)](https://twitter.com/chronobserver)
 
 ## Latest versions
 
-[![Windows](https://img.shields.io/badge/Windows-3.02.1-orange.svg)](src/Nihilism-Windows.theme.css)
-[![Web](https://img.shields.io/badge/Web-3.02.1-yellow.svg)](src/Nihilism-Web.theme.css)
-[![Linux](https://img.shields.io/badge/Linux-3.02-yellowgreen.svg)](src/Nihilism-Linux.theme.css)
+[![Windows](https://img.shields.io/badge/Windows-3.02.1-orange.svg?style=flat-square)](src/Nihilism-Windows.theme.css)
+[![Web](https://img.shields.io/badge/Web-3.02.1-yellow.svg?style=flat-square)](src/Nihilism-Web.theme.css)
+[![Linux](https://img.shields.io/badge/Linux-3.02-yellowgreen.svg?style=flat-square)](src/Nihilism-Linux.theme.css)
 
 ## Features
     
