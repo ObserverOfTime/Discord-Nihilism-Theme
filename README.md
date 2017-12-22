@@ -12,7 +12,7 @@
 
 [![Windows](https://img.shields.io/badge/Windows-3.02.1-orange.svg?style=flat-square)](src/Nihilism-Windows.theme.css)
 [![Web](https://img.shields.io/badge/Web-3.02.1-yellow.svg?style=flat-square)](src/Nihilism-Web.theme.css)
-[![Linux](https://img.shields.io/badge/Linux-3.02-yellowgreen.svg?style=flat-square)](src/Nihilism-Linux.theme.css)
+[![Unix](https://img.shields.io/badge/Unix-3.02.1-yellowgreen.svg?style=flat-square)](src/Nihilism-Unix.theme.css)
 
 ## Features
     
@@ -36,11 +36,16 @@
 ### Linux
 ![Linux](images/linux-screen.png)
 
+### Mac
+![Mac](images/mac-screen.png)
+
 ## How to install
 
 ### Windows
 - Install [BetterDiscord](https://betterdiscord.net/home/)
-- [Download](https://github.com/ObserverOfTime/Discord-Nihilism-Theme/releases/download/v3.02/Nihilism-Windows.theme.css) the theme and place it in BetterDiscord's theme folder _or_ write the following in your custom CSS: `@import url("https://raw.githack.com/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Windows.theme.css");`
+- Apply the theme:
+  - Option 1: [Download](https://github.com/ObserverOfTime/Discord-Nihilism-Theme/releases/download/v3.02.1/Nihilism-Windows.theme.css) the theme and place it in BetterDiscord's theme folder
+  - Option 2: Write the following in your custom CSS: `@import url("https://raw.githack.com/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Windows.theme.css");` (autoupdates)
 
 ### Web
 
@@ -48,8 +53,12 @@
 - Install the theme from [Usertyles](https://userstyles.org/styles/147291/) 
 
 ### Linux
-- Install BetterDiscord following these [instructions](https://www.youtube.com/watch?v=h1R2NTX-6C8)
-- [Download](https://github.com/ObserverOfTime/Discord-Nihilism-Theme/releases/download/v3.02/Nihilism-Linux.theme.css) the theme and place it in BetterDiscord's theme folder _or_ write the following in your custom CSS: `@import url("https://raw.githack.com/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Linux.theme.css");`
+- Install BetterDiscord
+  - Linux: Follow these [instructions](https://www.youtube.com/watch?v=h1R2NTX-6C8)
+  - Mac: Use this [installer](https://github.com/denBot/BetterDiscordOSXInstaller)
+- Apply the theme
+  - Option 1: [Download](https://github.com/ObserverOfTime/Discord-Nihilism-Theme/releases/download/v3.02.1/Nihilism-Unix.theme.css) the theme and place it in BetterDiscord's theme folder
+  - Option 2: Write the following in your custom CSS: `@import url("https://raw.githack.com/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Unix.theme.css");` (autoupdates)
 
 ## Credits
 
