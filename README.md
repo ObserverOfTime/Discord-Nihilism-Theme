@@ -43,9 +43,9 @@
 
 ### Windows
 - Install [BetterDiscord](https://betterdiscord.net/home/)
-- Apply the theme:
+- Apply the theme
   - Option 1: [Download](https://github.com/ObserverOfTime/Discord-Nihilism-Theme/releases/download/v3.02.1/Nihilism-Windows.theme.css) the theme and place it in BetterDiscord's theme folder
-  - Option 2: Write the following in your custom CSS: `@import url("https://raw.githack.com/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Windows.theme.css");` (autoupdates)
+  - Option 2: Write the following in your custom CSS (autoupdates): `@import url("https://raw.githack.com/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Windows.theme.css");`
 
 ### Web
 
@@ -58,7 +58,7 @@
   - Mac: Use this [installer](https://github.com/denBot/BetterDiscordOSXInstaller)
 - Apply the theme
   - Option 1: [Download](https://github.com/ObserverOfTime/Discord-Nihilism-Theme/releases/download/v3.02.1/Nihilism-Unix.theme.css) the theme and place it in BetterDiscord's theme folder
-  - Option 2: Write the following in your custom CSS: `@import url("https://raw.githack.com/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Unix.theme.css");` (autoupdates)
+  - Option 2: Write the following in your custom CSS (autoupdates): `@import url("https://raw.githack.com/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Unix.theme.css");`
 
 ## Credits
 
