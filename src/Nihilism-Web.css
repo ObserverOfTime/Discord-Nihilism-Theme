@@ -71,35 +71,35 @@
 
 /* ---- Compact Channel List ---- */
 div[class*="channels-"] {
-	width: 200px;
+  width: 200px;
 }
 div[class*="container-i"] {
-	width: 190px;
+  width: 190px;
 }
 div[class*="accountDetails-"] .username {
-	max-width: 50px;
+  max-width: 50px;
 }
 
 /* ---- Compact Member List ---- */
 .channel-members-wrap {
-	min-width: 200px;
+  min-width: 200px;
 }
 .channel-members {
-	max-width: 200px;
-	margin-top: -15px;
+  max-width: 200px;
+  margin-top: -15px;
 }
 .channel-members .member {
-	padding: 5px 12px;
+  padding: 5px 12px;
 }
 .channel-members h2 {
-	padding: 1px 10px;
+  padding: 1px 10px;
 }
 .channel-members .member + h2 {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 .channel-members .member .member-username,
 .channel-members .member .member-activity-text {
-	max-width: 125px;
+  max-width: 125px;
 }
 
 /* ---- Bigger Emoji ---- */
@@ -119,12 +119,12 @@ div[class*="accountDetails-"] .username {
 
 /* ---- Hide Blocked Messages ---- */
 .message-group-blocked {
-	display: none;
+  display: none;
 }
 
 /* ---- Hide Apps Button ---- */
 .guilds-wrapper .btn-download-apps {
-	display: none;
+  display: none;
 }
 
 /* ---- Dark Elements ---- */
@@ -368,33 +368,33 @@ div[class*="mask-"] {
 
 /* ---- Misc ---- */
 div[class*="scrollbar"] {
-	width: 15px;
+  width: 15px;
 }
 div[class*="scroller"] {
-	overflow-x: hidden !important;
+  overflow-x: hidden !important;
 }
 div[class*="track-"],
 div[class*="thumb-"] {
-	visibility: hidden !important;
+  visibility: hidden !important;
 }
 .emoji-picker div[class*="scrollbar-"] {
-	background: #333 !important;
+  background: #333 !important;
 }
 .emoji-picker div[class*="pad-"] {
-	background: inherit !important;
-	margin-left: 5px;
+  background: inherit !important;
+  margin-left: 5px;
 }
 div[class="track"],
 div[class="thumb"],
 .scrollbar::after {
-	background-color: #36393E !important;
+  background-color: #36393E !important;
 }
 div[class*="scrollerWrapPolyfill-"] div[class*="scroller-"] {
-	padding-right: 0px;
+  padding-right: 0px;
 }
 .scrollerWrap-2uBjct .scrollbar-2so3Ly,
 .scrollerWrap-2uBjct .scrollbar-2so3Ly .pad-3D5tOh {
-	background-color: #2f3136 !important;
+  background-color: #2f3136 !important;
 }
 
 .channel-members h2,
@@ -405,7 +405,7 @@ div[class*="scrollerWrapPolyfill-"] div[class*="scroller-"] {
 }
 div[class*="channels-"] div[class*="nameDefault-L"],
 div[class*="channels-"] div[class*="nameHovered-1"] {
-	margin-left: 5px;
+  margin-left: 5px;
 }
 div[class*="wrapper-"] > div[class*="content-"] {
   padding-left: 13px;
@@ -424,7 +424,7 @@ span[class*="botTagInvert-"],
 }
 
 button[class*="buttonBrandInverted"] {
-	background: #7289DA;
+  background: #7289DA;
   color: #FFF;
 }
 
@@ -467,19 +467,19 @@ path[class*="attachButtonPlus-"] {
 }
 
 .emoji-picker .dimmer.visible {
-	background: hsla(0, 2.6%, 30.6%, 0.6);
+  background: hsla(0, 2.6%, 30.6%, 0.6);
 }
 
 div[class*="innerEnabled-"],
 div[class*="innerDisabled-"] {
-	height: 45px;
+  height: 45px;
 }
 
 /* TODO
  * Dark buttons and more
  */
 
-/* ---- Credits ---- 
+/* ---- Credits ----
  *  https://github.com/0mniscient/Discord-Themes/blob/master/Themes/Discord%20Reborn.theme.css
  *  https://github.com/Zerthox/Mini-Discord-Themes/blob/master/themes/SmallerGuilds.theme.css
  *  https://github.com/Zerthox/Mini-Discord-Themes/blob/master/themes/StatusCircles.theme.css

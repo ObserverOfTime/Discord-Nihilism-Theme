@@ -15,7 +15,7 @@
 [![Unix](https://img.shields.io/badge/Unix-3.02.1-yellowgreen.svg?style=flat-square)](src/Nihilism-Unix.theme.css)
 
 ## Features
-    
+
 - Compact lists
 - Rounded square avatars with status borders
 - Bigger emoji
@@ -50,7 +50,7 @@
 ### Web
 
 - Install [Stylus](https://github.com/openstyles/stylus) or [Stylish](https://github.com/stylish-userstyles/stylish)
-- Install the theme from [Usertyles](https://userstyles.org/styles/147291/) 
+- Install the theme from [Usertyles](https://userstyles.org/styles/147291/)
 
 ### Linux
 - Install BetterDiscord

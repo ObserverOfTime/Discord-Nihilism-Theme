@@ -361,7 +361,7 @@ div[class*="mask-"] {
 div[class*="scroller-"]::-webkit-scrollbar-track-piece,
 div[class*="scroller-"]::-webkit-scrollbar-thumb,
 div[class*="scroller-"]::-webkit-scrollbar-track {
-	background: inherit !important;
+  background: inherit !important;
   border: none !important;
   visibility: hidden !important;
 }
@@ -374,7 +374,7 @@ div[class*="scroller-"]::-webkit-scrollbar-track {
 }
 div[class*="channels-"] div[class*="nameDefault-L"],
 div[class*="channels-"] div[class*="nameHovered-1"] {
-	margin-left: 5px;
+  margin-left: 5px;
 }
 div[class*="wrapper-"] > div[class*="content-"] {
   padding-left: 13px;
@@ -431,7 +431,7 @@ path[class*="attachButtonPlus-"] {
 }
 
 .emoji-picker .dimmer.visible {
-	background: hsla(0, 2.6%, 30.6%, 0.6);
+  background: hsla(0, 2.6%, 30.6%, 0.6);
 }
 div[id*="bda-q"],
 button[id*="bda-q"],
@@ -448,13 +448,13 @@ div[id*="bda-q"] .scroller::-webkit-scrollbar-thumb {
   position: relative;
   right: 2px !important;
 }
-  
-  
+
+
 /* TODO
  * Dark buttons and more
  */
 
-/* ---- Credits ---- 
+/* ---- Credits ----
  *  https://github.com/0mniscient/Discord-Themes/blob/master/Themes/Discord%20Reborn.theme.css
  *  https://github.com/Zerthox/Mini-Discord-Themes/blob/master/themes/SmallerGuilds.theme.css
  *  https://github.com/Zerthox/Mini-Discord-Themes/blob/master/themes/StatusCircles.theme.css
