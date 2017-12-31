@@ -52,7 +52,7 @@
 - Install [Stylus](https://github.com/openstyles/stylus) or [Stylish](https://github.com/stylish-userstyles/stylish)
 - Install the theme from [Usertyles](https://userstyles.org/styles/147291/)
 
-### Linux
+### Unix
 - Install BetterDiscord
   - Linux: Follow these [instructions](https://www.youtube.com/watch?v=h1R2NTX-6C8)
   - Mac: Use this [installer](https://github.com/denBot/BetterDiscordOSXInstaller)
