@@ -1,7 +1,9 @@
 
 # Discord Nihilism Theme
 
-**A dark, compact discord theme. Designed for use with Discord's dark theme.**
+**A dark, compact discord theme.**
+
+**Designed for use with Discord's dark theme.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](./LICENSE)
 [![Twitter Link](https://img.shields.io/badge/Twitter-@chronobserver-696969.svg?style=flat-square&logo=twitter)](https://twitter.com/chronobserver)
