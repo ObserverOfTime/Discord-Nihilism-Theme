@@ -10,9 +10,9 @@
 
 ## Latest versions
 
-[![Windows](https://img.shields.io/badge/Windows-3.02.1-orange.svg?style=flat-square)](src/Nihilism-Windows.theme.css)
+[![Windows](https://img.shields.io/badge/Windows-3.02.2-orange.svg?style=flat-square)](src/Nihilism-Windows.theme.css)
 [![Web](https://img.shields.io/badge/Web-3.02.1-yellow.svg?style=flat-square)](src/Nihilism-Web.theme.css)
-[![Unix](https://img.shields.io/badge/Unix-3.02.1-yellowgreen.svg?style=flat-square)](src/Nihilism-Unix.theme.css)
+[![Unix](https://img.shields.io/badge/Unix-3.02.2-yellowgreen.svg?style=flat-square)](src/Nihilism-Unix.theme.css)
 
 ## Features
 
@@ -60,9 +60,13 @@
   - Option 1: [Download](https://github.com/ObserverOfTime/Discord-Nihilism-Theme/releases/download/v3.02.1/Nihilism-Unix.theme.css) the theme and place it in BetterDiscord's theme folder
   - Option 2: Write the following in your custom CSS (autoupdates): `@import url("https://raw.githack.com/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Unix.theme.css");`
 
-## Credits
+## TODO
+- [ ] Fix status border in activities
+- [ ] Clean up obsolete code
+- [ ] Unjumble dark elements code
+- [ ] Add more dark elements
 
-Partially inspired by 0mniscient's [Discord Reborn](https://github.com/0mniscient/Discord-Themes/blob/master/Themes/Discord%20Reborn.theme.css)
+## Credits
 
 [Smaller server avatars](https://github.com/Zerthox/Mini-Discord-Themes/blob/master/themes/SmallerGuilds.theme.css) and [status borders](https://github.com/Zerthox/Mini-Discord-Themes/blob/master/themes/StatusCircles.theme.css) by Zerthox
 
