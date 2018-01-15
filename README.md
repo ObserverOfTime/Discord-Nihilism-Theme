@@ -65,6 +65,7 @@
 - [ ] Clean up obsolete code
 - [ ] Unjumble dark elements code
 - [ ] Add more dark elements
+- [ ] Fix popouts in Canary
 
 ## Credits
 
