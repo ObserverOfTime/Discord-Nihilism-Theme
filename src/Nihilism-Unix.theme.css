@@ -1,4 +1,4 @@
-//META{"name":"Nihilism", "description":"Compact lists. Rounded square avatars and status borders. Bigger emoji. ACTUALLY blocked messages. No titlebar (windows). No unnecessary scrollbars. More dark elements.", "author":"Observer of Time", "version":"3.02.1"}*//
+//META{"name":"Nihilism", "description":"Compact lists. Rounded square avatars and status borders. Bigger emoji. ACTUALLY blocked messages. No titlebar (windows). No unnecessary scrollbars. More dark elements.", "author":"Observer of Time", "version":"3.02.2"}*//
 
 /* ---- Compact Server List ---- */
 .guilds-wrapper {
@@ -59,13 +59,13 @@
 }
 
 /* ---- Compact Channel List ---- */
-div[class*="channels-"] {
+.channels-3g2vYe {
   width: 200px;
 }
-div[class*="container-i"] {
+.container-iksrDt {
   width: 190px;
 }
-div[class*="accountDetails-"] .username {
+.accountDetails-15i-_e .username {
   max-width: 50px;
 }
 
@@ -380,7 +380,15 @@ div[class*="wrapper-"] > div[class*="content-"] {
   padding-left: 13px;
 }
 
-span[class*="botTagInvert-"],
+div[class*="channels-"] .nameDefault-Lnjrwm,
+div[class*="channels-"] .nameHovered-1YFSWq {
+  margin-left: 5px;
+}
+div[class*="wrapper-"] > div[class*="content-"] {
+  padding-left: 13px;
+}
+
+.botTagInvert-gorWR_,
 .bot-tag {
   height: 11px;
   line-height: 12px;
@@ -392,7 +400,7 @@ span[class*="botTagInvert-"],
   color: #FFF;
 }
 
-div[class*="cardWarning-"] {
+.cardWarning-31DHBH {
   background: #F04747;
   border: none;
 }
@@ -405,9 +413,16 @@ div[class*="cardWarning-"] {
   border: none !important;
 }
 
-[class*="addButton"],
-[class*="role-"],
-[class*="roleCircle"] {
+.react-datepicker__navigation {
+  border: none !important;
+}
+.date-picker .date-picker-hint .hint-value {
+  background: #666 !important;
+}
+
+.addButton-3RuTE0,
+.role-3rahR_,
+.roleCircle-3-vPZq {
   border-radius: 4px;
 }
 
@@ -418,7 +433,18 @@ div[class*="cardWarning-"] {
   color: #DDD;
 }
 
-path[class*="attachButtonPlus-"] {
+.keybind-shortcut span .bind-arrow g {
+  fill: silver !important;
+}
+.keybind-shortcut.dim span {
+  background-color: inherit;
+  color: silver !important;
+}
+.keyboard-shortcuts-modal .ddr-arrows {
+  opacity: 0.8;
+}
+
+.attachButtonPlus-2l1NEU {
   fill: #BBB !important;
 }
 .create-guild-container.deprecated .action .action-body {
@@ -433,13 +459,11 @@ path[class*="attachButtonPlus-"] {
 .emoji-picker .dimmer.visible {
   background: hsla(0, 2.6%, 30.6%, 0.6);
 }
-div[id*="bda-q"],
-button[id*="bda-q"],
-button[id*="bda-q"],
-.preview-container .preview-wrapper,
-div[id*="bda-q"] .scroller::-webkit-scrollbar-thumb {
-  background-color: #333 !important;
+[id*="bda-qem"],
+[id*="bda-qem"] .scroller::-webkit-scrollbar-thumb,
+.preview-container .preview-wrapper {
   color: #DDD;
+  background-color: #333 !important;
   border-left: none !important;
   border-right: none !important;
   box-shadow: none !important;
@@ -449,15 +473,14 @@ div[id*="bda-q"] .scroller::-webkit-scrollbar-thumb {
   right: 2px !important;
 }
 
-
-/* TODO
- * Dark buttons and more
- */
-
-/* ---- Credits ----
- *  https://github.com/0mniscient/Discord-Themes/blob/master/Themes/Discord%20Reborn.theme.css
- *  https://github.com/Zerthox/Mini-Discord-Themes/blob/master/themes/SmallerGuilds.theme.css
- *  https://github.com/Zerthox/Mini-Discord-Themes/blob/master/themes/StatusCircles.theme.css
- *  https://github.com/Inve1951/BetterDiscordStuff/blob/master/themes/dragfix.theme.css
- */
+/* ---- PTB & Canary changes ---- */
+.emojiPicker-3g68GS,
+.emojiPicker-3g68GS .search-bar,
+.emojiPicker-3g68GS .category-3rCtoh {
+  background: #333 !important;
+  border: none;
+}
+.emojiItem-3l4Fa9.selected-1LQfcZ {
+  background-color: hsla(0, 2.6%, 30.6%, 0.6) !important;
+}
 

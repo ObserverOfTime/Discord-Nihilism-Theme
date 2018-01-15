@@ -1,4 +1,4 @@
-//META{"name":"Nihilism", "description":"Compact lists. Rounded square avatars and status borders. Bigger emoji. ACTUALLY blocked messages. No titlebar (windows). No unnecessary scrollbars. More dark elements.", "author":"Observer of Time", "version":"3.02.1"}*//
+//META{"name":"Nihilism", "description":"Compact lists. Rounded square avatars and status borders. Bigger emoji. ACTUALLY blocked messages. No titlebar (windows). No unnecessary scrollbars. More dark elements.", "author":"Observer of Time", "version":"3.02.2"}*//
 
 /* ---- Compact Server List ---- */
 .guilds-wrapper {
@@ -59,13 +59,13 @@
 }
 
 /* ---- Compact Channel List ---- */
-div[class*="channels-"] {
+.channels-3g2vYe {
   width: 200px;
 }
-div[class*="container-i"] {
+.container-iksrDt {
   width: 190px;
 }
-div[class*="accountDetails-"] .username {
+.accountDetails-15i-_e .username {
   max-width: 50px;
 }
 
@@ -109,53 +109,6 @@ div[class*="accountDetails-"] .username {
 /* ---- Hide Blocked Messages ---- */
 .message-group-blocked {
   display: none;
-}
-
-/* ---- Remove Titlebar ---- */
-div[class*="winButton-"] {
-  position: relative;
-  top: 25px;
-  right: 7px;
-  height: 35px;
-  width: 35.5px;
-  border-radius: 20%;
-}
-div[class*="titleBar-"] {
-  position: relative;
-  margin-top: -20px;
-}
-div[class*="title-"] {
-  position: relative;
-}
-div[class*="wordmark-"] {
-  display: none;
-}
-svg[class*="icon-m"] {
-  position: relative;
-  right: 110px;
-  margin-left: -3px;
-  margin-right: 3.5px;
-}
-span[class*="iconBadgeWrapper"] {
-  position: relative;
-  right: 120px;
-  margin-right: -7px;
-}
-span[class*="iconBadgeWrapper"] svg[class*="iconInactive"] {
-  right: 0px;
-  margin-left: 6px;
-}
-div[class*="search-2"] {
-  position: relative;
-  right: 107px;
-  margin-left: 5px;
-}
-div[class*="flex-"] > div[class*="divider-"] {
-  position: relative;
-  right: 55px;
-}
-div[class*="topic-"] {
-  padding-right: 110px;
 }
 
 /* ---- Dark Elements ---- */
@@ -413,6 +366,174 @@ div[class*="scroller-"]::-webkit-scrollbar-track {
   visibility: hidden !important;
 }
 
+.channel-members h2,
+.private-channels header {
+  text-align: center;
+  position: relative;
+  right: -5px;
+}
+div[class*="channels-"] div[class*="nameDefault-L"],
+div[class*="channels-"] div[class*="nameHovered-1"] {
+  margin-left: 5px;
+}
+div[class*="wrapper-"] > div[class*="content-"] {
+  padding-left: 13px;
+}
+
+div[class*="channels-"] .nameDefault-Lnjrwm,
+div[class*="channels-"] .nameHovered-1YFSWq {
+  margin-left: 5px;
+}
+div[class*="wrapper-"] > div[class*="content-"] {
+  padding-left: 13px;
+}
+
+.botTagInvert-gorWR_,
+.bot-tag {
+  height: 11px;
+  line-height: 12px;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+  background: #7289DA;
+  color: #FFF;
+}
+
+.cardWarning-31DHBH {
+  background: #F04747;
+  border: none;
+}
+
+#autocomplete-popout header::before {
+  border-top-color: #444 !important;
+}
+.popout section:after,
+.popout section:before {
+  border: none !important;
+}
+
+.react-datepicker__navigation {
+  border: none !important;
+}
+.date-picker .date-picker-hint .hint-value {
+  background: #666 !important;
+}
+
+.addButton-3RuTE0,
+.role-3rahR_,
+.roleCircle-3-vPZq {
+  border-radius: 4px;
+}
+
+.mention {
+  border-radius: 5%;
+}
+.mention:hover {
+  color: #DDD;
+}
+
+.keybind-shortcut span .bind-arrow g {
+  fill: silver !important;
+}
+.keybind-shortcut.dim span {
+  background-color: inherit;
+  color: silver !important;
+}
+.keyboard-shortcuts-modal .ddr-arrows {
+  opacity: 0.8;
+}
+
+.attachButtonPlus-2l1NEU {
+  fill: #BBB !important;
+}
+.create-guild-container.deprecated .action .action-body {
+  color: #FFF;
+  z-index: 1000 !important;
+}
+.create-guild-container.deprecated .create-or-join .actions .or {
+  display: none;
+  z-index: 0 !important;
+}
+
+.emoji-picker .dimmer.visible {
+  background: hsla(0, 2.6%, 30.6%, 0.6);
+}
+[id*="bda-qem"],
+[id*="bda-qem"] .scroller::-webkit-scrollbar-thumb,
+.preview-container .preview-wrapper {
+  color: #DDD;
+  background-color: #333 !important;
+  border-left: none !important;
+  border-right: none !important;
+  box-shadow: none !important;
+}
+.preview-container {
+  position: relative;
+  right: 2px !important;
+}
+
+/* ---- PTB & Canary changes ---- */
+.emojiPicker-3g68GS,
+.emojiPicker-3g68GS .search-bar,
+.emojiPicker-3g68GS .category-3rCtoh {
+  background: #333 !important;
+  border: none;
+}
+.emojiItem-3l4Fa9.selected-1LQfcZ {
+  background-color: hsla(0, 2.6%, 30.6%, 0.6) !important;
+}
+
+/* ---- Windows Stuff ---- */
+
+/* ---- Remove Titlebar ---- */
+div[class*="winButton-"] {
+  position: relative;
+  top: 25px;
+  right: 7px;
+  height: 35px;
+  width: 35.5px;
+  border-radius: 20%;
+}
+.titleBar-3_fDwJ {
+  position: relative;
+  margin-top: -20px;
+}
+div[class*="title-"] {
+  position: relative;
+}
+div[class*="wordmark-"] {
+  display: none;
+}
+.icon-mr9wAc {
+  position: relative;
+  right: 110px;
+  margin-left: -3px;
+  margin-right: 3.5px;
+}
+span[class*="iconBadgeWrapper"] {
+  position: relative;
+  right: 120px;
+  margin-right: -7px;
+}
+span[class*="iconBadgeWrapper"] svg[class*="iconInactive"] {
+  right: 0px;
+  margin-left: 6px;
+}
+div[class*="search-2"] {
+  position: relative;
+  right: 107px;
+  margin-left: 5px;
+}
+div[class*="flex-"] > div[class*="divider-"] {
+  position: relative;
+  right: 55px;
+}
+div[class*="topic-"] {
+  padding-right: 110px;
+}
+
+/* ---- Drag Fix ---- */
 div[class*="title-"] > *,
 .search-bar > *,
 .title > *:not([class="channel-name"]),
@@ -452,99 +573,4 @@ div[class*="inner-"],
 span[class*="private-"] {
   -webkit-app-region: no-drag;
 }
-
-.channel-members h2,
-.private-channels header {
-  text-align: center;
-  position: relative;
-  right: -5px;
-}
-div[class*="channels-"] div[class*="nameDefault-L"],
-div[class*="channels-"] div[class*="nameHovered-1"] {
-  margin-left: 5px;
-}
-div[class*="wrapper-"] > div[class*="content-"] {
-  padding-left: 13px;
-}
-
-span[class*="botTagInvert-"],
-.bot-tag {
-  height: 11px;
-  line-height: 12px;
-  padding-left: 3px !important;
-  padding-right: 3px !important;
-  padding-top: 2px !important;
-  padding-bottom: 2px !important;
-  background: #7289DA;
-  color: #FFF;
-}
-
-div[class*="cardWarning-"] {
-  background: #F04747;
-  border: none;
-}
-
-#autocomplete-popout header::before {
-  border-top-color: #444 !important;
-}
-.popout section:after,
-.popout section:before {
-  border: none !important;
-}
-
-[class*="addButton"],
-[class*="role-"],
-[class*="roleCircle"] {
-  border-radius: 4px;
-}
-
-.mention {
-  border-radius: 5%;
-}
-.mention:hover {
-  color: #DDD;
-}
-
-path[class*="attachButtonPlus-"] {
-  fill: #BBB !important;
-}
-.create-guild-container.deprecated .action .action-body {
-  color: #FFF;
-  z-index: 1000 !important;
-}
-.create-guild-container.deprecated .create-or-join .actions .or {
-  display: none;
-  z-index: 0 !important;
-}
-
-.emoji-picker .dimmer.visible {
-  background: hsla(0, 2.6%, 30.6%, 0.6);
-}
-div[id*="bda-q"],
-button[id*="bda-q"],
-button[id*="bda-q"],
-.preview-container .preview-wrapper,
-div[id*="bda-q"] .scroller::-webkit-scrollbar-thumb {
-  background-color: #333 !important;
-  color: #DDD;
-  border-left: none !important;
-  border-right: none !important;
-  box-shadow: none !important;
-}
-.preview-container {
-  position: relative;
-  right: 2px !important;
-}
-
-
-/* TODO
- * Dark buttons and more
- */
-
-/* ---- Credits ----
- *  https://github.com/0mniscient/Discord-Themes/blob/master/Themes/Discord%20Reborn.theme.css
- *  https://github.com/Zerthox/Mini-Discord-Themes/blob/master/themes/SmallerGuilds.theme.css
- *  https://github.com/Zerthox/Mini-Discord-Themes/blob/master/themes/StatusCircles.theme.css
- *  https://github.com/Inve1951/BetterDiscordStuff/blob/master/themes/dragfix.theme.css
- */
 
