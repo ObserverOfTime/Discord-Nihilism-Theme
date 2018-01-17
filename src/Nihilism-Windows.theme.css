@@ -284,12 +284,16 @@ div[class*="search-bar"] input {
 }
 .emojiPicker-3g68GS,
 .emojiPicker-3g68GS .search-bar,
-.emojiPicker-3g68GS .category-3rCtoh {
+.emojiPicker-3g68GS .category-3rCtoh,
+.diversitySelector-O3ea2c .popout-2lja3I {
   background: #333 !important;
   border: none;
 }
 .emojiItem-3l4Fa9.selected-1LQfcZ {
   background-color: hsla(0, 2.6%, 30.6%, 0.6) !important;
+}
+.emojiPicker-3g68GS .dimmer-jySV_v.visible-1CGy1m {
+  background: hsla(210, 9%, 30.6%, 0.6) !important;
 }
 
 /* ---- Rounded Square Avatars and Status Borders ---- */
