@@ -1,5 +1,5 @@
 
-# Discord Nihilism Theme
+# Nihilism
 
 **A dark, compact discord theme.**
 
