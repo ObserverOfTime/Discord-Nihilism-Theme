@@ -1,4 +1,4 @@
-/* ---- Nihilism for Web v3.03 by Observer of Time ---- */
+/* ---- Nihilism Web v3.03.1 by Observer of Time ---- */
 
 /** ---- Features ----
  *  Compact lists
@@ -139,7 +139,6 @@
   #user-profile-modal .avatar-wrapper,
   #user-profile-modal .guilds .section+.section,
   #user-profile-modal .empty,
-  .diversity-selector .popout,
   .menu-3BZuDT {
     background: #333 !important;
     border: none;
