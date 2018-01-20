@@ -10,9 +10,9 @@
 
 ## Latest versions
 
-[![Windows](https://img.shields.io/badge/Windows-3.03.1-orange.svg?style=flat-square)](src/Nihilism-Windows.theme.css)
-[![Web](https://img.shields.io/badge/Web-3.03.1-yellow.svg?style=flat-square)](src/Nihilism-Web.theme.css)
-[![Unix](https://img.shields.io/badge/Unix-3.03.1-yellowgreen.svg?style=flat-square)](src/Nihilism-Unix.theme.css)
+[![Windows](https://img.shields.io/badge/Windows-3.03.2-orange.svg?style=flat-square)](src/Nihilism-Windows.theme.css)
+[![Web](https://img.shields.io/badge/Web-3.03.2-yellow.svg?style=flat-square)](src/Nihilism-Web.theme.css)
+[![Unix](https://img.shields.io/badge/Unix-3.03.2-yellowgreen.svg?style=flat-square)](src/Nihilism-Unix.theme.css)
 
 ## Features
 
@@ -61,11 +61,10 @@
   - Option 2: Write the following in your custom CSS (autoupdates): `@import url("https://raw.githack.com/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Unix.theme.css");`
 
 ## TODO
-- [ ] Fix status border in activities
+- [x] Fix status border in activities
 - [ ] Clean up obsolete code
 - [ ] Unjumble dark elements code
 - [ ] Add more dark elements
-- [x] Fix popouts
 
 ## Credits
 

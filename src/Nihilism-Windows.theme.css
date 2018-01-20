@@ -1,4 +1,4 @@
-//META{"name":"Nihilism-Windows", "description":"Compact lists. Rounded square avatars and status borders. Bigger emoji. ACTUALLY blocked messages. No titlebar. No unnecessary scrollbars. More dark elements.", "author":"Observer of Time", "version":"3.03.1"}*//
+//META{"name":"Nihilism-Windows", "description":"Compact lists. Rounded square avatars and status borders. Bigger emoji. ACTUALLY blocked messages. No titlebar. No unnecessary scrollbars. More dark elements.", "author":"Observer of Time", "version":"3.03.2"}*//
 
 /* ---- Compact Server List ---- */
 .guilds-wrapper {
@@ -294,11 +294,28 @@ div[class*="search-bar"] input {
 .emojiPicker-3g68GS .dimmer-jySV_v.visible-1CGy1m {
   background: hsla(210, 9%, 30.6%, 0.6) !important;
 }
+.premiumPromo-HqV_qx {
+  background: #333;
+}
+.premiumPromoTitle-q7xvT_ {
+  color: gray;
+}
+.premiumPromoDescription-3ldaqG {
+  color: silver;
+}
+.premiumPromoImage-EF7d-a {
+  filter: brightness(85%);
+}
+.premiumPromo-HqV_qx .btn,
+.premiumPromo-HqV_qx .btn:hover {
+  background-color: darkslategray;
+  color: white;
+}
 
 /* ---- Rounded Square Avatars and Status Borders ---- */
 div[class*="avatar"],
 div[class*="image-"],
-div[class*="status"]:not(.member-status),
+div[class*="status"],
 .guild-inner,
 .guilds-add,
 .guilds-error,
@@ -312,7 +329,8 @@ div[class*="status"] {
 }
 .avatar-small .status,
 div[class*="listAvatar"] div[class*="status"],
-div[class*="autocomplete"] div[class*="status"] {
+div[class*="autocomplete"] div[class*="status"],
+.status-3jUEha {
   width: 100% !important;
   height: 100% !important;
   background: transparent;
