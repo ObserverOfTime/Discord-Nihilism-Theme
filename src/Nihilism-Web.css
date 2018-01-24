@@ -1,4 +1,4 @@
-/* ---- Nihilism Web v3.03.2 by Observer of Time ---- */
+/* ---- Nihilism Web v3.03.3 by Observer of Time ---- */
 
 /** ---- Features ----
  *  Compact lists
@@ -101,6 +101,9 @@
   .channel-members .member .member-username,
   .channel-members .member .member-activity-text {
     max-width: 125px;
+  }
+  .scrollerWrap-2uBjct {
+    height: 110%;
   }
 
   /* ---- Bigger Emoji ---- */
@@ -325,12 +328,12 @@
   /* ---- Rounded Square Avatars and Status Borders ---- */
   div[class*="avatar"],
   div[class*="image-"],
-  div[class*="status"],
+  div[class*="status"]:not(.member-status),
   .guild-inner,
   .guilds-add,
   .guilds-error,
   .guild-placeholder,
-  .embed-author-icon {
+  .embedAuthorIcon-S7s7pw {
     border-radius: 25% !important;
   }
   div[class*="status"] {
