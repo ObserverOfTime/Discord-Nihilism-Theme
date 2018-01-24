@@ -61,7 +61,6 @@
   - Option 2: Write the following in your custom CSS (autoupdates): `@import url("https://raw.githack.com/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Unix.theme.css");`
 
 ## TODO
-- [x] Fix status border in activities
 - [ ] Clean up obsolete code
 - [ ] Unjumble dark elements code
 - [ ] Add more dark elements
