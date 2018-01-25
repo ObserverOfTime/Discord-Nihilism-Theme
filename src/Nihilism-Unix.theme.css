@@ -1,4 +1,4 @@
-//META{"name":"Nihilism-Unix", "description":"Compact lists. Rounded square avatars and status borders. Bigger emoji. ACTUALLY blocked messages. No unnecessary scrollbars. More dark elements.", "author":"Observer of Time", "version":"3.03.3"}*//
+//META{"name":"Nihilism-Unix", "description":"Compact lists. Rounded square avatars and status borders. Bigger emoji. ACTUALLY blocked messages. No unnecessary scrollbars. More dark elements.", "author":"Observer of Time", "version":"3.03.4"}*//
 
 /* ---- Compact Server List ---- */
 .guilds-wrapper {
@@ -313,6 +313,42 @@ div[class*="search-bar"] input {
 .premiumPromo-HqV_qx .btn:hover {
   background-color: darkslategray;
   color: white;
+}
+.regionSelectModal-QBpi1R {
+  background-color: #444 !important;
+  color: lightgray;
+}
+.regionSelectModalOption-3giLPN {
+  background-color: #555 !important;
+  color: lightgray;
+  border: none !important;
+}
+.regionSelectModalOption-3giLPN:hover {
+  background-color: darkslategray !important;
+}
+.regionSelectModalHeader-33y0EU,
+.create-guild-container h5,
+.welcomeMessage-1U7Ntv h1 {
+  color: #AAA !important;
+}
+.regionSelect-1lpijo button,
+.regionSelectInner-1cIYbU {
+  border-color: gray !important;
+  color: silver;
+}
+.regionSelect-1lpijo:hover button,
+.form.deprecated .btn-primary:hover {
+  color: white;
+  background-color: darkslategray;
+}
+.form.deprecated .btn-primary {
+  background-color: gray;
+}
+.form.deprecated .control-group input[type=text]:focus {
+  border-bottom-color: darkgray;
+}
+.avatar-uploader-inner {
+  background-color: #4f545c !important;
 }
 
 /* ---- Rounded Square Avatars and Status Borders ---- */
