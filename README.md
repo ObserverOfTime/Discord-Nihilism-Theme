@@ -10,20 +10,21 @@
 
 ## Latest versions
 
-[![Windows](https://img.shields.io/badge/Windows-3.4.0-orange.svg?style=flat-square)](src/Nihilism-Windows.theme.css)
-[![Web](https://img.shields.io/badge/Web-3.4.0-yellow.svg?style=flat-square)](src/Nihilism-Web.css)
-[![Unix](https://img.shields.io/badge/Unix-3.4.0-yellowgreen.svg?style=flat-square)](src/Nihilism-Unix.theme.css)
+[![Windows](https://img.shields.io/badge/Windows-4.0.0-orange.svg?style=flat-square)](src/Nihilism-Windows.theme.css)
+[![Web](https://img.shields.io/badge/Web-4.0.0-yellow.svg?style=flat-square)](src/Nihilism-Web.css)
+[![Unix](https://img.shields.io/badge/Unix-4.0.0-yellowgreen.svg?style=flat-square)](src/Nihilism-Unix.theme.css)
 
 ## Features
 
 - Compact lists
-- Rounded square avatars with status borders
+- Rounded square avatars
+- Status borders
 - Bigger emoji
 - Hide blocked messages
 - Hide title bar _(windows)_
 - Hide apps button _(web)_
 - Hide unnecessary scrollbars
-- More dark elements
+- No light elements
 
 ## Screenshots
 
@@ -45,7 +46,7 @@
 - Install [BetterDiscord](https://github.com/rauenzi/BetterDiscordApp/releases/download/0.2.82/BetterDiscordWI.exe)
 - Apply the theme
   - Option 1: [Download](https://betterdiscord.net/ghdl?id=1288) the theme and place it in BetterDiscord's theme folder
-  - Option 2: Write the following in your custom CSS (autoupdates): `@import url("https://raw.githack.com/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Windows.theme.css");`
+  - Option 2: Write the following in your custom CSS (autoupdates): `@import url("https://gitcdn.xyz/cdn/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Windows.theme.css");`
 
 ### Web
 
@@ -58,12 +59,12 @@
   - Mac: Unzip and run the [installer](https://github.com/rauenzi/BetterDiscordApp/releases/download/0.2.82/BetterDiscordMacInstaller.zip)
 - Apply the theme
   - Option 1: [Download](https://betterdiscord.net/ghdl?id=1289) the theme and place it in BetterDiscord's theme folder
-  - Option 2: Write the following in your custom CSS (autoupdates): `@import url("https://raw.githack.com/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Unix.theme.css");`
+  - Option 2: Write the following in your custom CSS (autoupdates): `@import url("https://gitcdn.xyz/cdn/ObserverOfTime/Discord-Nihilism-Theme/master/src/Nihilism-Unix.theme.css");`
 
 ## TODO
-- [ ] Clean up obsolete code
-- [ ] Unjumble dark elements code
-- [ ] Add more dark elements
+- [x] Clean up obsolete code
+- [x] Unjumble dark elements code
+- [x] Add more dark elements
 
 ## Credits
 
