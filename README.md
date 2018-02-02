@@ -10,9 +10,9 @@
 
 ## Latest versions
 
-[![Windows](https://img.shields.io/badge/Windows-4.0.0-orange.svg?style=flat-square)](src/Nihilism-Windows.theme.css)
-[![Web](https://img.shields.io/badge/Web-4.0.0-yellow.svg?style=flat-square)](src/Nihilism-Web.css)
-[![Unix](https://img.shields.io/badge/Unix-4.0.0-yellowgreen.svg?style=flat-square)](src/Nihilism-Unix.theme.css)
+[![Windows](https://img.shields.io/badge/Windows-4.1.0-orange.svg?style=flat-square)](src/Nihilism-Windows.theme.css)
+[![Web](https://img.shields.io/badge/Web-4.1.0-yellow.svg?style=flat-square)](src/Nihilism-Web.css)
+[![Unix](https://img.shields.io/badge/Unix-4.1.0-yellowgreen.svg?style=flat-square)](src/Nihilism-Unix.theme.css)
 
 ## Features
 

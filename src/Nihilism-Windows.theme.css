@@ -1,4 +1,4 @@
-//META{"name":"Nihilism-Windows", "description":"A dark, compact Discord theme. Designed for use with Discord's dark theme. Restores the old titlebar.", "author":"Observer of Time", "version":"4.0.0"}*//
+//META{"name":"Nihilism-Windows", "description":"A dark, compact discord theme. Designed for use with Discord's dark theme. Restores the old titlebar.", "author":"Observer of Time", "version":"4.1.0"}*//{}
 
 /** ---- Server Area ---- **/
 .guilds-wrapper {
@@ -162,31 +162,6 @@
   width: 35px !important;
   height: auto;
   margin: 2px 0;
-}
-.emojiPicker-3g68GS,
-.emojiPicker-3g68GS .search-bar,
-.emojiPicker-3g68GS .category-3rCtoh,
-.diversitySelector-O3ea2c .popout-2lja3I {
-  background: #333 !important;
-  border: none;
-}
-.emojiItem-3l4Fa9.selected-1LQfcZ {
-  background-color: hsla(0, 2.6%, 30.6%, 0.6) !important;
-}
-.emojiPicker-3g68GS .dimmer-jySV_v.visible-1CGy1m {
-  background: hsla(210, 9%, 30.6%, 0.6) !important;
-}
-.premiumPromo-HqV_qx {
-  background: #222;
-}
-.premiumPromoTitle-q7xvT_ {
-  color: gray;
-}
-.premiumPromoDescription-3ldaqG {
-  color: silver;
-}
-.premiumPromoImage-EF7d-a {
-  filter: brightness(85%);
 }
 .messages-popout-wrap {
   width: 520px;
@@ -420,7 +395,7 @@
 .headerStreaming-3F-wjT,
 .headerSpotify-1fSJPO,
 #autocomplete-popout .autocomplete-scroller {
-background: #202225 !important;
+  background: #202225 !important;
 }
 .headerPlaying-2eYqm9 .activity-AFBUEw,
 .topSectionPlaying-3jAH9b .activityProfile-2pymp0 {
@@ -447,6 +422,12 @@ background: #202225 !important;
 }
 .connectedAccount-3mKaTA   {
   border: 2px solid #111 !important;
+}
+.connectedAccountOpenIcon-2J8hDS:hover {
+  filter: brightness(150%);
+}
+#autocomplete-popout h3 {
+  margin-left: 55px;
 }
 
 /** ---- Server Modal ---- **/
@@ -726,7 +707,7 @@ background: #202225 !important;
   background: #444 !important;
 }
 
-/* ---- Buttons ---- **/
+/** ---- Buttons ---- **/
 .actionButton-3SG1Zj,
 .smallGrow-2_7ZaC,
 .mediumGrow-uovsMu,
@@ -746,7 +727,8 @@ background: #202225 !important;
 .create-guild-container.deprecated .btn-primary,
 .clipboardInputInner-oj8y-S button,
 .uploadModal-2KN6Mm .button,
-.private-channel-recipients-invite button {
+.private-channel-recipients-invite button,
+.primaryButton-1ZHZe8 {
   background: slategray !important;
   color: white !important;
 }
@@ -770,7 +752,8 @@ background: #202225 !important;
 .create-guild-container.deprecated .btn-primary:hover,
 .clipboardInputInner-oj8y-S button:hover,
 .uploadModal-2KN6Mm .button:hover,
-.private-channel-recipients-invite button:not(:disabled):hover {
+.private-channel-recipients-invite button:not(:disabled):hover,
+.primaryButton-1ZHZe8:hover {
   background: darkslategray !important;
   color: white !important;
 }
@@ -792,16 +775,17 @@ background: #202225 !important;
 .removeKeybind-1f2bpW,
 .removeWebhook-2aJ7CC,
 .revoke-invite,
-.remove-game {
+.remove-game,
+.removeOverride-2kSxAp {
   border-radius: 20%;
 }
 .sizeDefault-rZbSBU,
 .ui-standard-sidebar-view .btn-close,
 #bd-settingspane-container .ui-switch {
-border-radius: 10px !important;
+  border-radius: 10px !important;
 }
 #bd-settingspane-container .plugin-settings button {
-border-radius: 5px;
+  border-radius: 5px;
 }
 .clipboardInputInner-oj8y-S button {
   border: none;
@@ -812,7 +796,8 @@ border-radius: 5px;
   top: -3px !important;
   right: -23px !important;
 }
-.removeWebhook-2aJ7CC {
+.removeWebhook-2aJ7CC,
+.removeOverride-2kSxAp {
   top: -3px !important;
   right: -5px !important;
 }
@@ -825,7 +810,7 @@ border-radius: 5px;
   background-color: hsla(210, 40%, 13%, 0.7) !important;
 }
 .user-settings-locale .icon-3j0iot {
-  filter: hue-rotate(90deg) saturate(30);
+  filter: hue-rotate(90deg) saturate(20);
 }
 .card-3DrRmC a {
   color: #00b0f4 !important;
@@ -880,6 +865,69 @@ border-radius: 5px;
   background: hsla(51, 100%, 50%, 0.1) !important;
 }
 
+/** ---- Emoji Picker ---- **/
+.emojiPicker-3g68GS,
+.emojiPicker-3g68GS .header-27dQ-e,
+.emojiPicker-3g68GS .search-bar,
+.emojiPicker-3g68GS .category-3rCtoh,
+.diversitySelector-O3ea2c .popout-2lja3I {
+  background: #333;
+  border: none;
+}
+.emojiPicker-3g68GS .categories-jw8z2h,
+.emojiPicker-3g68GS .categories-jw8z2h .item-lsWB-j {
+  height: 30px;
+}
+.emojiPicker-3g68GS .categories-jw8z2h .item-lsWB-j.selected-1LQfcZ {
+  border: 2px dotted #222 !important;
+}
+.emojiPicker-3g68GS .search-bar-inner {
+  background: #2d2b2b !important;
+  border: 1px solid rgba(40, 35, 35, 0.9) !important
+}
+.emojiPicker-3g68GS .search-bar-icon .icon.visible {
+  opacity: 1;
+}
+.emojiPicker-3g68GS .search-bar input {
+  color: #BBB;
+}
+.emojiItem-3l4Fa9.selected-1LQfcZ {
+  background-color: hsla(0, 3%, 30%, 0.6) !important;
+}
+.emojiPicker-3g68GS .dimmer-jySV_v {
+  transition: none;
+  -webkit-transition: none;
+}
+.emojiPicker-3g68GS .dimmer-jySV_v.visible-1CGy1m {
+  background-color: hsla(210, 9%, 31%, 0.6);
+  border-top-right-radius: 0;
+}
+.emojiPicker-3g68GS .dimmer-jySV_v.visible-1CGy1m ~ .scrollerWrap-EC-dSj .category-3rCtoh:nth-child(1) {
+  background-color: hsla(213, 7%, 26%, 1);
+  color: rgba(152, 170, 182, 0.5);
+}
+.emojiPicker-3g68GS .dimmer-jySV_v.visible-1CGy1m ~ .header-27dQ-e,
+.emojiPicker-3g68GS .dimmer-jySV_v.visible-1CGy1m ~ .header-27dQ-e .search-bar {
+  background-color: hsla(213, 7%, 26%, 1);
+  border: none;
+}
+.emojiPicker-3g68GS .dimmer-jySV_v.visible-1CGy1m ~ .header-27dQ-e .search-bar-inner {
+  background-color: hsla(210, 9%, 31%, 0.6) !important;
+  border-color: transparent !important;
+}
+.premiumPromo-HqV_qx {
+  background: #333;
+}
+.premiumPromoTitle-q7xvT_ {
+  color: gray;
+}
+.premiumPromoDescription-3ldaqG {
+  color: silver;
+}
+.premiumPromoImage-EF7d-a {
+  filter: brightness(80%);
+}
+
 /** ---- Invite Embeds ---- **/
 .userSelectNone-Kq5Tpz .buttonPrimaryOutlinedDefault--H0hhk,
 .userSelectNone-Kq5Tpz .buttonPrimaryOutlinedDefault--H0hhk:hover {
@@ -926,7 +974,7 @@ border-radius: 5px;
 .wanderingCubesItem-35kyMu,
 .spinningCircle-2mRBGy,
 .circular-2U7_1N {
-  visibility: hidden;
+  visibility: hidden !important;
 }
 
 /** ---- Tooltips ---- **/
@@ -950,27 +998,37 @@ border-radius: 5px;
 .messages-wrapper .scroller::-webkit-scrollbar-track-piece {
   background: transparent !important;
 }
+.scroller-wrap .scroller::-webkit-scrollbar-thumb {
+  min-height: 25px;
+}
 .scroller-fzNley::-webkit-scrollbar {
   display: none !important;
 }
-.keyboard-shortcuts-modal .scroller-wrap .scroller::-webkit-scrollbar {
+.scrollbarGhost-K_3Xa9::-webkit-scrollbar {
+  display: none;
+}
+.keyboard-shortcuts-modal .scroller::-webkit-scrollbar {
   display: none;
 }
 .wrapper-VSYYTS .Select-menu::-webkit-scrollbar {
-  width: 0px;
-  background: transparent;
+  display: none;
 }
 
 /** ---- Misc ---- **/
-.botTagInvert-gorWR_,
-.botTagRegular-288-ZL {
-  height: 11px;
-  line-height: 12px;
-  background: rgba(72, 61, 139, 0.5);
+.botTag-1OwMgs {
+  height: 12px;
+  background: rgba(10, 20, 40, 0.9);
   color: #FFF;
+  padding: 3px 4px;
 }
-.botTagInvert-gorWR_ {
-  padding: 2px 3px !important;
+.channel-members .botTag-1OwMgs {
+  padding: 1px 2.5px;
+  margin-top: 1px;
+}
+.guild-settings-members-member .botTag-1OwMgs {
+  height: 16px;
+  padding: 1px 2.5px;
+  line-height: 15px;
 }
 .ghostPill-1yup5q,
 .round-30vw42 {
@@ -999,10 +1057,12 @@ border-radius: 5px;
 .sidebar .side-2nYO0F {
   text-align: center;
 }
+#pluginNotice,
 .DevilBro-notice,
 .notice-3I4-y_ {
   border-radius: 0 !important;
 }
+
 
 /** ---- BetterDiscord Stuff ---- **/
 
@@ -1011,16 +1071,22 @@ border-radius: 5px;
   display: none;
 }
 #bd-settingspane-container .ui-switch-wrapper:active .ui-switch:before {
-width: 26px !important;
+  width: 26px !important;
 }
 #bd-settingspane-container .ui-switch-wrapper:active .ui-switch.checked:before {
-left: -4px !important;
+  left: -4px !important;
 }
 .plugin-setting-label:not([style*="rgb(17, 17, 17)"]) {
   color: gray !important;
 }
 .plugin-setting-label[style*="rgb(17, 17, 17)"] {
   color: white !important;
+}
+.bd-blue *[style*="background-color: rgb(114, 137, 218)"] {
+  background-color: rgba(40, 40, 40, 0.8) !important;
+}
+.bd-blue *[style*="border-color: rgb(114, 137, 218)"] {
+  border-color: #111 !important;
 }
 
 /** ---- Emoji Menu ---- **/
